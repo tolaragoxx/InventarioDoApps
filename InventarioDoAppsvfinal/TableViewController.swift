@@ -4,7 +4,6 @@
 //
 //  Created by Gonzalo on 8/01/16.
 //  Copyright © 2016 doapps. All rights reserved.
-// HOLAAAA PAPUUUUUU
 
 import UIKit
 import CoreData
