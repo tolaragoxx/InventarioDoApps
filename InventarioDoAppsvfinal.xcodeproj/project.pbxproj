@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EA12296E1C403E6E00686949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12296D1C403E6E00686949 /* AppDelegate.swift */; };
-		EA1229701C403E6E00686949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12296F1C403E6E00686949 /* ViewController.swift */; };
 		EA1229731C403E6E00686949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1229711C403E6E00686949 /* Main.storyboard */; };
 		EA1229751C403E6E00686949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1229741C403E6E00686949 /* Assets.xcassets */; };
 		EA1229781C403E6E00686949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1229761C403E6E00686949 /* LaunchScreen.storyboard */; };
 		EA1229831C403E6F00686949 /* InventarioDoAppsvfinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1229821C403E6F00686949 /* InventarioDoAppsvfinalTests.swift */; };
 		EA12298E1C403E6F00686949 /* InventarioDoAppsvfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12298D1C403E6F00686949 /* InventarioDoAppsvfinalUITests.swift */; };
+		EA12299C1C40405A00686949 /* AgregarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12299B1C40405A00686949 /* AgregarViewController.swift */; };
+		EA12299E1C40407500686949 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12299D1C40407500686949 /* TableViewController.swift */; };
+		EA564AFC1C407938003015F4 /* listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA564AFB1C407938003015F4 /* listas.swift */; };
+		EA899AA61C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA899AA41C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		EA12296A1C403E6E00686949 /* InventarioDoAppsvfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventarioDoAppsvfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA12296D1C403E6E00686949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA12296F1C403E6E00686949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA1229721C403E6E00686949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA1229741C403E6E00686949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1229771C403E6E00686949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		EA1229891C403E6F00686949 /* InventarioDoAppsvfinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventarioDoAppsvfinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA12298D1C403E6F00686949 /* InventarioDoAppsvfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioDoAppsvfinalUITests.swift; sourceTree = "<group>"; };
 		EA12298F1C403E6F00686949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA12299B1C40405A00686949 /* AgregarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarViewController.swift; sourceTree = "<group>"; };
+		EA12299D1C40407500686949 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EA564AFB1C407938003015F4 /* listas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listas.swift; sourceTree = "<group>"; };
+		EA899AA51C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InventariosDoAppsvfinal.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				EA12296D1C403E6E00686949 /* AppDelegate.swift */,
-				EA12296F1C403E6E00686949 /* ViewController.swift */,
 				EA1229711C403E6E00686949 /* Main.storyboard */,
 				EA1229741C403E6E00686949 /* Assets.xcassets */,
 				EA1229761C403E6E00686949 /* LaunchScreen.storyboard */,
 				EA1229791C403E6E00686949 /* Info.plist */,
+				EA12299B1C40405A00686949 /* AgregarViewController.swift */,
+				EA12299D1C40407500686949 /* TableViewController.swift */,
+				EA564AFB1C407938003015F4 /* listas.swift */,
+				EA899AA41C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodeld */,
 			);
 			path = InventarioDoAppsvfinal;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1229701C403E6E00686949 /* ViewController.swift in Sources */,
+				EA899AA61C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodeld in Sources */,
+				EA12299C1C40405A00686949 /* AgregarViewController.swift in Sources */,
+				EA12299E1C40407500686949 /* TableViewController.swift in Sources */,
 				EA12296E1C403E6E00686949 /* AppDelegate.swift in Sources */,
+				EA564AFC1C407938003015F4 /* listas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				EA1229941C403E6F00686949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA1229951C403E6F00686949 /* Build configuration list for PBXNativeTarget "InventarioDoAppsvfinalTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				EA1229971C403E6F00686949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA1229981C403E6F00686949 /* Build configuration list for PBXNativeTarget "InventarioDoAppsvfinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,8 +512,22 @@
 				EA12299A1C403E6F00686949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA899AA41C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA899AA51C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodel */,
+			);
+			currentVersion = EA899AA51C44042300EBB00E /* InventariosDoAppsvfinal.xcdatamodel */;
+			path = InventariosDoAppsvfinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA1229621C403E6E00686949 /* Project object */;
 }
