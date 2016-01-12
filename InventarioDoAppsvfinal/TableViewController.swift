@@ -88,8 +88,8 @@ class TableViewController: UITableViewController,UISearchResultsUpdating,Agregar
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //The color RGB #78A890
-        let newColor = UIColor(red: CGFloat(0x78)/255
-            ,green: CGFloat(0xA8)/255
+        let newColor = UIColor(red: CGFloat(0xC0)/255
+            ,green: CGFloat(0xD8)/255
             ,blue: CGFloat(0x90)/255
             ,alpha: 1.0)
         let cell = UITableViewCell()
